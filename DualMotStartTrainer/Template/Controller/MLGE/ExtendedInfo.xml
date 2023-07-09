@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectElements>
+  <AcfElementGuid Guid="6fcf6e55-fa91-4025-946f-db939079435f">
+    <File>prgOutMap.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="cfd2474f-3455-4e51-bae0-27f1f6bad522">
+    <File>prgInMapAnalog.AcfMlge</File>
+  </AcfElementGuid>
+  <AcfElementGuid Guid="d3d6f0ec-5574-48a9-88ae-1f80d8352ac9">
+    <File>prgInMap.AcfMlge</File>
+  </AcfElementGuid>
+</ProjectElements>

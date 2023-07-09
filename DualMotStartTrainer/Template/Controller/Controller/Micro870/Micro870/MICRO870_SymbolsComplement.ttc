@@ -1,0 +1,17 @@
+[BEGIN FB INPUTS]
+I1=micro870.micro870.prginmapanalog/scaler_1.input,0x1DAC,REAL
+I2=micro870.micro870.prginmapanalog/scaler_1.inputmin,0x1DBC,REAL
+I3=micro870.micro870.prginmapanalog/scaler_1.inputmax,0x1DC0,REAL
+I4=micro870.micro870.prginmapanalog/scaler_1.outputmin,0x1DBC,REAL
+I5=micro870.micro870.prginmapanalog/scaler_1.outputmax,0x1DC4,REAL
+I6=micro870.micro870.prginmapanalog/scaler_2.input,0x1DB0,REAL
+I7=micro870.micro870.prginmapanalog/scaler_2.inputmin,0x1DBC,REAL
+I8=micro870.micro870.prginmapanalog/scaler_2.inputmax,0x1DC0,REAL
+I9=micro870.micro870.prginmapanalog/scaler_2.outputmin,0x1DBC,REAL
+I10=micro870.micro870.prginmapanalog/scaler_2.outputmax,0x1DC4,REAL
+I11=micro870.micro870.prginmapanalog/scaler_3.input,0x1DB4,REAL
+I12=micro870.micro870.prginmapanalog/scaler_3.inputmin,0x1DBC,REAL
+I13=micro870.micro870.prginmapanalog/scaler_3.inputmax,0x1DC0,REAL
+I14=micro870.micro870.prginmapanalog/scaler_3.outputmin,0x1DBC,REAL
+I15=micro870.micro870.prginmapanalog/scaler_3.outputmax,0x1DC4,REAL
+[END]

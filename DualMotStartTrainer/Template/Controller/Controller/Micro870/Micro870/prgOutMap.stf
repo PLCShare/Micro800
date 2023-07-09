@@ -1,0 +1,84 @@
+PROGRAM prgOutMap
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)  XIC  [1,0] (*gxMS1FwdCoil*) (**)  OTE  [2,0] (*_IO_EM_DO_03*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,3] (**) (**)  XIC  [1,0] (*gxMS1RevCoil*) (**)  OTE  [2,0] (*_IO_EM_DO_04*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,5] (**) (**)  XIC  [1,0] (*gxMS2FwdCoil*) (**)  OTE  [2,0] (*_IO_EM_DO_05*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,7] (**) (**)  XIC  [1,0] (*gxMS2RevCoil*) (**)  OTE  [2,0] (*_IO_EM_DO_06*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,9] (**) (**)  XIC  [1,0] (*gxLgtPB1Lamp*) (**)  OTE  [2,0] (*_IO_EM_DO_07*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,11] (**) (**)  XIC  [1,0] (*gxLgtPB1Lamp*) (**)  OTE  [2,0] (*_IO_EM_DO_08*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,13] (**) (**)  XIC  [1,0] (*gxLgtPB1Lamp*) (**)  OTE  [2,0] (*_IO_EM_DO_09*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,15] (**) (**)  XIC  [1,0] (*gxPL1Green*) (**)  OTE  [2,0] (*_IO_EM_DO_08*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,17] (**) (**)  XIC  [1,0] (*gxPL2Green*) (**)  OTE  [2,0] (*_IO_EM_DO_09*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,19] (**) (**)  XIC  [1,0] (*gxLgtTwrRed*) (**)  OTE  [2,0] (*_IO_P3_DO_00*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,21] (**) (**)  XIC  [1,0] (*gxLgtTwrYellow*) (**)  OTE  [2,0] (*_IO_P3_DO_01*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,23] (**) (**)  XIC  [1,0] (*gxLgtTwrGreen*) (**)  OTE  [2,0] (*_IO_P3_DO_02*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,25] (**) (**)  XIC  [1,0] (*gxLgtTwrAlarm*) (**)  OTE  [2,0] (*_IO_P3_DO_03*) (**)
+EOR [3,0]
+EOF
+#end_info
+END_PROGRAM

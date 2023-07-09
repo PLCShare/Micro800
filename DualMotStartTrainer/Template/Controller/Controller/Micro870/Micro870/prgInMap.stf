@@ -1,0 +1,90 @@
+PROGRAM prgInMap
+#info= QLD
+BOF
+
+
+(**)
+
+SOR  [0,1] (**) (**)  XIC  [1,0] (*_IO_EM_DI_00*) (**)  OTE  [2,0] (*gxPB1*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,3] (**) (**)  XIC  [1,0] (*_IO_EM_DI_01*) (**)  OTE  [2,0] (*gxLgtPB1Cont*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,5] (**) (**)  XIC  [1,0] (*_IO_EM_DI_02*) (**)  OTE  [2,0] (*gxSS1Left*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,7] (**) (**)  XIC  [1,0] (*_IO_EM_DI_03*) (**)  OTE  [2,0] (*gxSS1Right*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,9] (**) (**)  XIC  [1,0] (*_IO_EM_DI_04*) (**)  OTE  [2,0] (*gxMomSW1Left*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,11] (**) (**)  XIC  [1,0] (*_IO_EM_DI_05*) (**)  OTE  [2,0] (*gxMomSW1Right*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,13] (**) (**)  XIC  [1,0] (*_IO_EM_DI_06*) (**)  OTE  [2,0] (*gxMS1FwdAuxCont*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,15] (**) (**)  XIC  [1,0] (*_IO_EM_DI_07*) (**)  OTE  [2,0] (*gxMS1RevAuxCont*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,17] (**) (**)  XIC  [1,0] (*_IO_EM_DI_08*) (**)  OTE  [2,0] (*gxMS2FwdAuxCont*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,19] (**) (**)  XIC  [1,0] (*_IO_EM_DI_09*) (**)  OTE  [2,0] (*gxMS2RevAuxCont*) (**)
+EOR [3,0]
+
+
+(**)
+
+SOR  [0,21] (**) (**)  XIC  [1,0] (*_IO_EM_DI_10*) (**)
+EOR [2,0]
+
+
+(**)
+
+SOR  [0,23] (**) (**)  XIC  [1,0] (*_IO_EM_DI_11*) (**)
+EOR [2,0]
+
+
+(**)
+
+SOR  [0,25] (**) (**)  XIC  [1,0] (*_IO_EM_DI_12*) (**)
+EOR [2,0]
+
+
+(**)
+
+SOR  [0,27] (**) (**)  XIC  [1,0] (*_IO_EM_DI_13*) (**)  OTE  [2,0] (*gxMCR*) (**)
+EOR [3,0]
+EOF
+#end_info
+END_PROGRAM
